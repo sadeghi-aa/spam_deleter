@@ -21,4 +21,4 @@ Note: A /del command will be ignored in these cases:
 
 2- If a non-admin member uses it.
 
-3- If it's used for deleting another member's message.
+3- If it's used for deleting another admin's message.
