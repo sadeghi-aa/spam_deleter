@@ -9,8 +9,9 @@ This code uses telebot library and is based on flask. This is how the bot works 
 
 3- Reply to a member's message with /del command.
 
-4- Their message and your command will be deleted by the bot. (Unless you're the creator in which case your command can't be deleted)
+4- Their message and your command will be deleted by the bot.
 
 5- A warning message mentioning the spammer will be sent to the group. (You can replace it with your preferred message)
 
-Enjoy!
+Note 1: If a non-admin user replies /del to a message, their message will be deleted and ignored.
+Note 2: If an admin tries to delete another admin's message, it will be considered a mistake and will be ignored.
