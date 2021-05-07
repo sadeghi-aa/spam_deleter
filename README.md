@@ -7,7 +7,7 @@ This code uses telebot library and is based on flask. This is how the bot works 
 
 2- Make it an admin (at least with 'Delete messages' permission).
 
-3- Reply to a member's message with '/del' command.
+3- Reply to a member's message with /del command.
 
 4- Their message and your command will be deleted by the bot. (Unless you're the creator in which case your command can't be deleted)
 
