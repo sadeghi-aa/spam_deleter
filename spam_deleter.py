@@ -34,7 +34,7 @@ def delete(message):
                     command_id = message.message_id
                     bot.delete_message(chat_id, spam_id)
                     bot.delete_message(chat_id, command_id)
-                    mention = "[" + spammer_name + "](tg://user?id="+str(spammer_id)+")"
+                    mention = f"[{spammer_name}](tg://user?id={str(spammer_id)})"
                     text = '\n'.join([mention, warning_text])
                     bot.send_message(chat_id, text, parse_mode="Markdown")
                 else: # Tried to delete an admin's message
