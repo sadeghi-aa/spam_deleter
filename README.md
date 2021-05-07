@@ -13,7 +13,7 @@ This code uses **telebot** library and is based on **flask**. This is how the bo
 
 4- Their message will be deleted by the bot.
 
-5- A warning message mentioning the spammer will be sent to the group. (You can replace the warning text with your preferred message)
+5- A **warning** message mentioning the spammer will be sent to the group. (You can replace the warning text with your preferred message)
 
 6- Your /del command will also be deleted to clean up.
 
