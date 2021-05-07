@@ -1,4 +1,4 @@
-# spam_deleter
+# Spam Deleter Telegram Bot
 A Telegram bot that deletes spam messages upon request of an adminstrator.
 
 This code uses telebot library and is based on flask. This is how the bot works (for you as an group admin):
