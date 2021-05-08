@@ -4,7 +4,7 @@ import telebot
 
 app = Flask(__name__)
 
-token = "1854811438:AAGiriL0MQAGZsGHYzLvDs7AbkI829u3htM"
+token = "Your Token"
 bot = telebot.TeleBot(token, threaded=False)
 
 warning_text = '\n'.join([
